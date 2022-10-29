@@ -1,0 +1,272 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.butt {
+  width: 196px;
+  height: 58px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  border: 2px solid #0e6fde;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0e6fde !important;
+  font-weight: 500;
+  font-family: Ubuntu-Medium, Ubuntu !important;
+  margin-left: 15px; }
+
+.ipchanger-btnbox {
+  display: flex; }
+
+.ipchanger-btn1 {
+  height: 58px !important;
+  background: #0e6fde;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  font-family: Ubuntu-Medium, Ubuntu;
+  font-weight: 500;
+  color: #ffffff; }
+  .ipchanger-btn1 p {
+    font-size: 16px !important; }
+
+.mt20 {
+  margin-top: 96px !important; }
+
+.tit {
+  text-align: center;
+  font-size: 48px;
+  font-family: Ubuntu-Bold, Ubuntu;
+  font-weight: bold;
+  color: #042040;
+  line-height: 55px;
+  margin-top: 80px; }
+
+.mintit {
+  font-size: 16px;
+  font-family: Open Sans-Light, Open Sans;
+  font-weight: 300;
+  color: #55687d;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 20px; }
+
+.a1 {
+  margin-top: 60px;
+  width: 1210px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto; }
+  .a1 .a1-item {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .a1 .a1-item .a1-item-2 {
+      margin-top: 20px;
+      width: 100px;
+      height: 30px;
+      background: #ddecff;
+      border-radius: 64px 64px 64px 64px;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-family: Open Sans-SemiBold, Open Sans;
+      font-weight: 600;
+      color: #15357a; }
+    .a1 .a1-item .a1-item-3 {
+      margin-top: 10px;
+      font-size: 26px;
+      font-family: Ubuntu-Medium, Ubuntu;
+      font-weight: 500;
+      color: #042040;
+      line-height: 34px; }
+    .a1 .a1-item .a1-item-4 {
+      margin-top: 10px;
+      font-size: 18px;
+      font-family: Open Sans-Light, Open Sans;
+      font-weight: 300;
+      color: #55687d;
+      line-height: 25px;
+      width: 355px;
+      height: 50px;
+      font-size: 18px;
+      font-family: Open Sans-Light, Open Sans;
+      font-weight: 300;
+      color: #55687d;
+      line-height: 25px; }
+
+.bttt {
+  margin-top: 70px;
+  width: 219px;
+  height: 51px;
+  background: #0e6fde;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer; }
+
+.a11 {
+  width: 1210px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto; }
+  .a11 .a1-item {
+    width: 393px;
+    height: 307px;
+    background: #ffffff;
+    box-shadow: 0px 3px 8px 0px rgba(162, 180, 202, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1;
+    border: 1px solid #f0f4f5; }
+    .a11 .a1-item:hover {
+      box-shadow: 0px 6px 8px 0px rgba(162, 180, 202, 0.2); }
+    .a11 .a1-item .a1-item-1 {
+      width: 393px;
+      height: 148px;
+      background: #f1f4fb;
+      border-radius: 10px 10px 0px 0px;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .a11 .a1-item .a1-item-2 {
+      margin-top: 10px;
+      width: 353px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      font-family: Ubuntu-Medium, Ubuntu;
+      font-weight: 500;
+      color: #042040;
+      line-height: 26px; }
+    .a11 .a1-item .a1-item-3 {
+      margin-top: 10px;
+      width: 353px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16px;
+      font-family: Open Sans-Light, Open Sans;
+      font-weight: 300;
+      color: #55687d;
+      line-height: 22px; }
+
+.a111 {
+  width: 1210px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto; }
+  .a111 .a1-item {
+    width: 393px;
+    height: 307px;
+    background: #ffffff;
+    box-shadow: 0px 3px 8px 0px rgba(162, 180, 202, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1;
+    border: 1px solid #f0f4f5; }
+    .a111 .a1-item:hover {
+      box-shadow: 0px 6px 8px 0px rgba(162, 180, 202, 0.2); }
+    .a111 .a1-item .a1-item-1 {
+      width: 393px;
+      height: 148px;
+      background: #f1f4fb;
+      border-radius: 10px 10px 0px 0px;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .a111 .a1-item .a1-item-2 {
+      margin-top: 10px;
+      width: 353px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      font-family: Ubuntu-Medium, Ubuntu;
+      font-weight: 500;
+      color: #042040;
+      line-height: 26px; }
+    .a111 .a1-item .a1-item-3 {
+      margin-top: 10px;
+      width: 353px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16px;
+      font-family: Open Sans-Light, Open Sans;
+      font-weight: 300;
+      color: #55687d;
+      line-height: 22px; }
+
+.foll_position_img6 {
+  position: absolute;
+  top: 2173px;
+  right: 0;
+  z-index: -1; }
+
+.foll_position_img5 {
+  top: 1867px; }
+
+.foll_position_img3 {
+  top: 1019px; }
+
+.special-banner {
+  position: relative; }
+  .special-banner .cont {
+    position: relative;
+    z-index: 2; }
+
+.mk1 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1; }
+
+.mk2 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  z-index: 1; }
+
+.mk3 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1; }
+
+.mk4 {
+  position: absolute;
+  right: 0px;
+  top: 204px;
+  z-index: 1; }
+
+.butt {
+  position: relative; }
+  .butt .mk5 {
+    position: absolute;
+    right: -11px;
+    top: -8px; }
+    .butt .mk5 .mkk {
+      position: absolute;
+      right: 1px;
+      top: 17px;
+      transform: rotate(45deg);
+      font-family: Ubuntu-Medium, Ubuntu;
+      font-weight: 500;
+      color: #042040;
+      z-index: 99;
+      width: 52px; }
+
+/*# sourceMappingURL=apipage.css.map */

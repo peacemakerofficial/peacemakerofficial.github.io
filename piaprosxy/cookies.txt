@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.www.jscape.com	TRUE	/	FALSE	1999999999	__cf_bm	7uMKfpfFOs4fJyfWk9NlloWSehycazyaE8bG93VFz4g-1667011221-0-AdiPdd0qzoe/0Si1TtbuKlIXoYkz46W9PafFS7Ph4tEAr9oYjdam8+f+T15PHeI9Kuyh+oOx0Ifrgq+A3nP5YF8=
+.www.jscape.com	TRUE	/	FALSE	1999999999	__cfruid	bca8ff87e16899910ff867582ff3f72dc7db4062-1667011221
+www.jscape.com	TRUE	/	FALSE	1999999999	SameSite	None
+

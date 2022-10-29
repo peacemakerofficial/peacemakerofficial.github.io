@@ -1,0 +1,48 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 28 Oct 2022 19:36:45 at https://www.piaproxy.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.piaproxy.com/ -O1 "C:\My Web Sites\piaprosxy" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:37:26	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.piaproxy.com/)
+19:38:48	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/img/index/jb1.png (from https://wapi.piaproxy.com/static/index/css/index.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/appv2/img/index/morethen.png (from https://wapi.piaproxy.com/static/appv2/css/appv2.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/appv2/img/index/icon_rjiantou.png (from https://wapi.piaproxy.com/static/appv2/css/appv2.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/appv2/img/collection/icon_click.png (from https://wapi.piaproxy.com/static/appv2/css/appv2.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/androidv2/img/index/morethen.png (from https://wapi.piaproxy.com/static/androidv2/css/androidv2.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/androidv2/img/index/icon_rjiantou.png (from https://wapi.piaproxy.com/static/androidv2/css/androidv2.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/ios/img/index/morethen.png (from https://wapi.piaproxy.com/static/ios/css/ios.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/ios/img/index/icon_rjiantou.png (from https://wapi.piaproxy.com/static/ios/css/ios.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/ios/img/collection/icon_click.png (from https://wapi.piaproxy.com/static/ios/css/ios.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/windv2/img/index/morethen.png (from https://wapi.piaproxy.com/static/windv2/css/windv2.css)
+19:39:04	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/windv2/img/index/icon_rjiantou.png (from https://wapi.piaproxy.com/static/windv2/css/windv2.css)
+19:39:18	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/pluginhtml/img/index/morethen.png (from https://wapi.piaproxy.com/static/pluginhtml/css/plugin.css)
+19:39:18	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/pluginhtml/img/index/icon_rjiantou.png (from https://wapi.piaproxy.com/static/pluginhtml/css/plugin.css)
+19:39:18	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/pluginhtml/img/collection/icon_click.png (from https://wapi.piaproxy.com/static/pluginhtml/css/plugin.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/img/blog/p1.jpg (from https://www.piaproxy.com/service-updates/59.html)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/img/blog/p2.jpg (from https://www.piaproxy.com/service-updates/59.html)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/img/blog/p3.jpg (from https://www.piaproxy.com/service-updates/59.html)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-brands-400.eot (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-brands-400.eot? (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-brands-400.woff2 (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-brands-400.woff (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-brands-400.ttf (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-brands-400.svg (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-regular-400.eot (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-regular-400.eot? (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-regular-400.woff2 (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-regular-400.woff (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-regular-400.ttf (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-regular-400.svg (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-solid-900.eot (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-solid-900.eot? (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-solid-900.woff2 (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-solid-900.woff (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-solid-900.ttf (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:39:52	Error: 	"Not Found" (404) at link https://wapi.piaproxy.com/static/index/css/fonts/@fortawesome/fa-solid-900.svg (from https://wapi.piaproxy.com/static/index/css/plugins.bundle.css)
+19:40:03	Error: 	"Not Found" (404) at link https://www.piaproxy.com/login (from https://www.piaproxy.com/blog/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 59 seconds : 568 links scanned, 529 files written (55760633 bytes overall) [41970093 bytes received at 175607 bytes/sec], 17585132 bytes transferred using HTTP compression in 242 files, ratio 19%, 10.0 requests per connection
+(37 errors, 0 warnings, 0 messages)

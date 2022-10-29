@@ -1,0 +1,289 @@
+#app {
+  width: 1280px;
+  height: 5000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.win-tit {
+  font-size: 40px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #042040;
+}
+
+.log-new {
+  margin-top: 60px;
+  width: 1029px;
+  display: flex;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.log-new .log-new-1 {
+  margin-top: 30px;
+  width: 192px;
+  white-space: nowrap;
+}
+
+.log-new .log-new-1 .log-new-1-1 {
+  font-size: 32px;
+  font-family: Ubuntu-Medium, Ubuntu;
+  font-weight: 500;
+  color: #042040;
+}
+
+.log-new .log-new-1 .log-new-1-2 {
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: Open Sans-Regular, Open Sans;
+  font-weight: 400;
+  color: #55687d;
+}
+
+.log-new .log-new-1 .log-new-1-3 {
+  margin-top: 30px;
+  width: 191px;
+  height: 41px;
+  background: #ff8822;
+  box-shadow: 0px 4px 4px 1px rgba(255, 123, 34, 0.18);
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  font-size: 15px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.log-new .log-new-1 .log-new-1-3:hover {
+  box-shadow: 0px 4px 4px 1px rgba(255, 114, 34, 0.28);
+  background: #ff7222;
+}
+
+.log-new .line {
+  margin-left: 50px;
+  opacity: 1;
+  border: 1px solid #f1f1f1;
+  position: relative;
+}
+
+.log-new .line .block {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  left: -15px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transform: translateY(15px);
+}
+
+.log-new .line .block .cir {
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  border: 2px solid #ff8822;
+  border-radius: 50%;
+}
+
+.log-new .log-new-2 {
+  margin-top: 30px;
+  padding: 30px;
+  width: 750px;
+  background: #fef7f4;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 1;
+  border: 1px solid #ffe8e1;
+  margin-left: 30px;
+}
+
+.log-new .log-new-2 .new {
+  padding-left: 14px;
+  font-size: 20px;
+  font-family: Ubuntu-Medium, Ubuntu;
+  font-weight: 500;
+  color: #042040;
+}
+
+.log-new .log-new-2 .new-2 {
+  margin-bottom: 19px;
+  font-size: 18px;
+  font-family: Ubuntu-Medium, Ubuntu;
+  font-weight: 500;
+  color: #042040;
+  padding-left: 14px;
+  margin-top: 25px;
+}
+
+.log-new .log-new-2 .log-item {
+  display: flex;
+}
+
+.log-new .log-new-2 .log-item .dian {
+  width: 6px;
+  height: 6px;
+  background: #ff8822;
+  opacity: 1;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.log-new .log-new-2 .log-item .content {
+  font-size: 16px;
+  font-family: Open Sans-Regular, Open Sans;
+  font-weight: 400;
+  color: #55687d;
+  word-wrap: break-word;
+  word-break: normal;
+  width: 100%;
+}
+
+.log-histort {
+  margin-top: 58px;
+  font-size: 28px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #042040;
+}
+
+.line-block {
+  height: 1px;
+  background-color: #f1f1f1;
+  width: 1029px;
+  margin-top: 32px;
+}
+
+.his {
+  position: relative;
+  overflow: hidden;
+}
+
+.his .line {
+  height: 1000000000px;
+  position: absolute;
+  left: 243px;
+  border: 1px solid #f1f1f1;
+}
+
+.his .log-new {
+  margin-top: 0px;
+  position: relative;
+}
+
+.his .log-new .log-item .dian {
+  background: #0e6fde;
+}
+
+.his .log-new .log-new-1 {
+  width: 192px;
+  white-space: nowrap;
+}
+
+.his .log-new .log-new-1 .log-new-1-3 {
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.02);
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  border: 1px solid #e5e5e5;
+  font-size: 15px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #55687d;
+  transition: all 0.5s;
+}
+
+.his .log-new-2 {
+  background-color: #f4f9fe;
+  margin-left: 86px;
+  border: 1px solid #e1f0ff;
+}
+
+.his .log-new-2 .new {
+  position: relative;
+}
+
+.his .log-new-2 .new .block {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transform: translate(-94px, -3px);
+}
+
+.his .log-new-2 .new .block .cir {
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  border: 2px solid #0e6fde;
+  border-radius: 50%;
+}
+
+.win {
+  width: 1029px;
+}
+
+.content-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1210px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding-bottom: 192px;
+  overflow: visible;
+}
+
+.content-box .tab {
+  cursor: pointer;
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #55687d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid #ffffff;
+}
+
+.content-box .active {
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #042040;
+  background: linear-gradient(90deg, #e9f3ff 0%, rgba(233, 243, 255, 0) 100%);
+  border-radius: 0px 0px 0px 0px;
+  opacity: 1;
+  border-left: 2px solid #0e6fde;
+}
+
+.log-item {
+  margin-top: 10px;
+}
+
+.ss {
+  height: 58px;
+}
+
+.sdds:hover {
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.08) !important;
+}

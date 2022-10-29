@@ -1,0 +1,1261 @@
+.downlaod .banner-box {
+  background-color: #ffffff;
+  height: 740px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://wapi.piaproxy.com/static/androidv2/img/bb.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .downlaod .banner-box > div {
+    display: flex;
+    align-items: center;
+    height: 100%; }
+  .downlaod .banner-box .banner {
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    height: 570px;
+    transform: translateY(-50px); }
+    .downlaod .banner-box .banner .txt {
+      width: 605px; }
+      .downlaod .banner-box .banner .txt h1 {
+        font-size: 50px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        color: #15357a;
+        line-height: 70px; }
+      .downlaod .banner-box .banner .txt > p {
+        font-size: 24px;
+        font-family: Ubuntu-Light;
+        color: #ffffff;
+        line-height: 27px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .downlaod .banner-box .banner .txt > .li {
+        display: flex;
+        margin-bottom: 13px; }
+        .downlaod .banner-box .banner .txt > .li i {
+          flex: none;
+          width: 22px;
+          height: 22px;
+          margin-right: 10px;
+          background-image: url("https://wapi.piaproxy.com/static/androidv2/img/2.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 22px 22px; }
+        .downlaod .banner-box .banner .txt > .li > span {
+          font-size: 18px;
+          font-family: Ubuntu-Light;
+          color: #355395;
+          line-height: 27px; }
+    .downlaod .banner-box .banner .banner-bg1 {
+      width: 715px;
+      top: 0;
+      right: 0; }
+    .downlaod .banner-box .banner .banner-btn {
+      margin-top: 40px;
+      cursor: pointer; }
+      .downlaod .banner-box .banner .banner-btn .ff {
+        padding: 20px 40px;
+        background: #0e6fde;
+        border-radius: 4px 4px 4px 4px;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: content-box;
+        transition: all 0.4s; }
+        .downlaod .banner-box .banner .banner-btn .ff > p {
+          font-size: 16px;
+          font-family: Ubuntu-Medium, Ubuntu;
+          font-weight: 500;
+          color: #ffffff; }
+        .downlaod .banner-box .banner .banner-btn .ff i {
+          transition: all 0.4s;
+          width: 22px;
+          height: 23px;
+          opacity: 0;
+          background-image: url("https://wapi.piaproxy.com/static/contrast/img/right_white.svg");
+          background-size: 100%;
+          background-repeat: no-repeat;
+          position: absolute;
+          right: 16px;
+          top: 23px; }
+      .downlaod .banner-box .banner .banner-btn .ff:hover {
+        background-color: #16396c;
+        box-shadow: 0px 4px 4px 1px rgba(22, 57, 108, 0.19);
+        padding-right: 60px; }
+        .downlaod .banner-box .banner .banner-btn .ff:hover i {
+          opacity: 1; }
+  .downlaod .banner-box .banner-bg2 {
+    width: 1300px; }
+.downlaod h2 {
+  font-size: 48px;
+  font-family: Ubuntu-Bold, Ubuntu;
+  font-weight: bold;
+  color: #042040;
+  line-height: 48px;
+  color: #042040;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto; }
+.downlaod .tit-p {
+  font-size: 24px;
+  font-family: Ubuntu-Light;
+  color: #55687d;
+  line-height: 28px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center; }
+.downlaod .line {
+  width: 100%;
+  height: 1px;
+  background-color: #ebf5ff;
+  margin: 50px 0; }
+.downlaod .w100p {
+  width: 100% !important; }
+.downlaod .explore h2 {
+  width: 1040px; }
+.downlaod .explore > p {
+  font-size: 24px;
+  font-family: Ubuntu-Light;
+  color: #55687d;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center; }
+.downlaod .explore > ul {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+  .downlaod .explore > ul > .li {
+    transition: all 0.4s;
+    width: 210px;
+    height: 195px;
+    background: #ffffff;
+    border: 1px solid #f0f4f5;
+    padding-top: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px 1px rgba(0, 54, 130, 0.05);
+    border-radius: 4px;
+    opacity: 1;
+    border: 1px solid #f0f4f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; }
+    .downlaod .explore > ul > .li #hide {
+      display: none; }
+    .downlaod .explore > ul > .li:hover {
+      box-shadow: 0px 4px 30px 1px rgba(0, 54, 130, 0.15); }
+      .downlaod .explore > ul > .li:hover #hide {
+        display: block; }
+      .downlaod .explore > ul > .li:hover #show {
+        display: none; }
+    .downlaod .explore > ul > .li > img {
+      width: 80px;
+      height: 80px; }
+    .downlaod .explore > ul > .li > p {
+      font-size: 20px;
+      font-weight: 400;
+      color: #042040;
+      line-height: 23px;
+      margin-top: 27px; }
+    .downlaod .explore > ul > .li.no {
+      background-color: #fdfdfd;
+      box-shadow: none; }
+    .downlaod .explore > ul > .li.downAndroid::after {
+      content: "Emulator Acceptable";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 34px;
+      line-height: 34px;
+      background-color: #e5ebf1;
+      border-top: 1px solid #f0f4f5;
+      font-size: 16px;
+      font-family: Ubuntu-Light;
+      color: #55687d;
+      text-align: center; }
+    .downlaod .explore > ul > .li.nohas {
+      background-color: #fdfdfd;
+      box-shadow: none; }
+      .downlaod .explore > ul > .li.nohas::after {
+        content: "Comming soon...";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 34px;
+        line-height: 34px;
+        background-color: #e5ebf1;
+        border-top: 1px solid #f0f4f5;
+        font-size: 16px;
+        font-family: Ubuntu-Light;
+        color: #55687d;
+        text-align: center; }
+.downlaod .what > h2 {
+  width: 860px; }
+.downlaod .what > h3 {
+  font-size: 24px;
+  font-family: Ubuntu-Light;
+  font-weight: 400;
+  color: #55687d;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center; }
+.downlaod .what > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .downlaod .what > ul > li {
+    width: 620px;
+    background: #f7f8fa rgba(255, 255, 255, 0.84);
+    box-shadow: 0px 4px 30px 1px rgba(0, 54, 130, 0.1);
+    border-radius: 4px;
+    opacity: 1;
+    border: 1px solid #f0f4f5;
+    padding: 20px 45px 50px;
+    overflow: hidden;
+    position: relative; }
+    .downlaod .what > ul > li:hover {
+      box-shadow: 0px 4px 30px 1px rgba(0, 54, 130, 0.15); }
+      .downlaod .what > ul > li:hover::after {
+        width: 100%; }
+    .downlaod .what > ul > li::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 10px;
+      background-color: #0e6fde;
+      transition: all 0.5s;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .downlaod .what > ul > li > img {
+      width: 530px;
+      height: 360px; }
+    .downlaod .what > ul > li > p {
+      margin-top: 10px;
+      font-size: 20px;
+      font-family: Ubuntu-Light;
+      color: #55687d;
+      line-height: 34px;
+      text-align: left; }
+.downlaod .enjoy > h2 {
+  width: 860px;
+  margin-bottom: 50px; }
+.downlaod .enjoy > .line {
+  width: 100%;
+  height: 1px;
+  background-color: #ebf5ff;
+  margin: 50px 0; }
+.downlaod .enjoy .enjoy-li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px; }
+  .downlaod .enjoy .enjoy-li > img {
+    width: 600px;
+    height: 430px; }
+  .downlaod .enjoy .enjoy-li .txt {
+    width: 546px;
+    text-align: left; }
+    .downlaod .enjoy .enjoy-li .txt > p {
+      font-size: 35px;
+      font-family: Ubuntu-Bold, Ubuntu;
+      color: #042040;
+      line-height: 57px;
+      margin-bottom: 10px; }
+    .downlaod .enjoy .enjoy-li .txt .ptit {
+      font-size: 38px;
+      font-family: Ubuntu-Bold, Ubuntu;
+      color: #042040;
+      line-height: 45px; }
+    .downlaod .enjoy .enjoy-li .txt .p1 {
+      font-size: 24px;
+      font-family: Ubuntu-Medium, Ubuntu;
+      color: #042040;
+      line-height: 31px; }
+    .downlaod .enjoy .enjoy-li .txt .p2 {
+      font-size: 16px;
+      font-family: Ubuntu-Light;
+      font-weight: 400;
+      color: #55687d;
+      line-height: 27px; }
+    .downlaod .enjoy .enjoy-li .txt > span {
+      font-size: 20px;
+      font-family: Ubuntu-Light;
+      color: #55687d;
+      line-height: 27px; }
+    .downlaod .enjoy .enjoy-li .txt .icon-li {
+      display: flex;
+      align-items: center;
+      margin-top: 10px; }
+      .downlaod .enjoy .enjoy-li .txt .icon-li i {
+        display: block;
+        width: 22px;
+        height: 22px;
+        background-image: url("https://wapi.piaproxy.com/static/androidv2/img/download/enjoy_icon.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        margin-right: 10px; }
+      .downlaod .enjoy .enjoy-li .txt .icon-li > p {
+        font-size: 20px;
+        font-family: Ubuntu-Light;
+        color: #55687d;
+        line-height: 23px; }
+    .downlaod .enjoy .enjoy-li .txt .trait {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      display: flex; }
+      .downlaod .enjoy .enjoy-li .txt .trait > .line {
+        width: 1px;
+        background-color: #cde3ff;
+        margin: 0 30px; }
+      .downlaod .enjoy .enjoy-li .txt .trait > .i span {
+        font-size: 16px;
+        font-family: Ubuntu-Light;
+        color: #55687d;
+        line-height: 19px; }
+      .downlaod .enjoy .enjoy-li .txt .trait > .i > p {
+        font-size: 34px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        color: #042040;
+        line-height: 40px;
+        margin-top: 5px; }
+.downlaod .down-chara-box {
+  text-align: left;
+  background-color: #ebf4ff; }
+  .downlaod .down-chara-box .down-chara {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .downlaod .down-chara-box .down-chara > .line {
+      width: 1px;
+      background-color: #cde3ff;
+      margin: 0 30px; }
+    .downlaod .down-chara-box .down-chara .li {
+      width: 370px; }
+      .downlaod .down-chara-box .down-chara .li > img {
+        width: 100px;
+        height: 100px; }
+      .downlaod .down-chara-box .down-chara .li > p {
+        font-size: 26px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        color: #042040;
+        line-height: 30px;
+        margin-top: 25px;
+        margin-bottom: 15px; }
+      .downlaod .down-chara-box .down-chara .li > span {
+        font-size: 20px;
+        font-family: Ubuntu-Light;
+        color: #55687d;
+        line-height: 32px; }
+.downlaod .works {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+  .downlaod .works > img {
+    width: 600px; }
+  .downlaod .works .txt {
+    width: 546px; }
+    .downlaod .works .txt > h5 {
+      font-size: 35px;
+      font-family: Ubuntu-Bold, Ubuntu;
+      color: #042040;
+      line-height: 45px; }
+    .downlaod .works .txt > p {
+      margin-top: 10px;
+      font-size: 20px;
+      font-family: Ubuntu-Light;
+      color: #55687d;
+      line-height: 32px; }
+.downlaod .steps h2 {
+  width: 1023px; }
+.downlaod .steps > p {
+  font-size: 24px;
+  font-family: Ubuntu-Light;
+  color: #55687d;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center; }
+.downlaod .steps > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px; }
+  .downlaod .steps > ul > li {
+    width: 386px;
+    height: 430px;
+    box-shadow: 0px 4px 30px 1px rgba(0, 54, 130, 0.05);
+    border-radius: 10px 10px 4px 4px;
+    opacity: 1;
+    border: 1px solid #f0f4f5;
+    padding-bottom: 19px; }
+    .downlaod .steps > ul > li > img {
+      width: 100%;
+      max-width: 410px; }
+    .downlaod .steps > ul > li .txt {
+      padding: 0 25px;
+      padding-top: 30px; }
+      .downlaod .steps > ul > li .txt > p {
+        font-size: 24px;
+        font-family: Ubuntu-Regular, Ubuntu;
+        color: #042040;
+        line-height: 28px;
+        margin-bottom: 15px; }
+      .downlaod .steps > ul > li .txt > span {
+        font-size: 18px;
+        font-family: Ubuntu-Light;
+        color: #55687d;
+        line-height: 28px; }
+        .downlaod .steps > ul > li .txt > span a {
+          color: #0e6fde; }
+.downlaod .faq-box {
+  background-color: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 120px; }
+  .downlaod .faq-box .faq .li {
+    border: 1px solid #f0f4f5;
+    margin-bottom: 20px; }
+    .downlaod .faq-box .faq .li .tit {
+      padding: 30px 40px 20px;
+      background-color: #ffffff;
+      border-radius: 4px;
+      opacity: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer; }
+      .downlaod .faq-box .faq .li .tit > p {
+        max-width: 1080px;
+        font-size: 24px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        color: #042040;
+        line-height: 28px; }
+      .downlaod .faq-box .faq .li .tit i {
+        width: 30px;
+        height: 30px;
+        background-image: url("https://wapi.piaproxy.com/static/androidv2/img/download/faq_nor.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+    .downlaod .faq-box .faq .li .li-cont {
+      width: 100%;
+      height: 10px;
+      background-color: #fff; }
+      .downlaod .faq-box .faq .li .li-cont > p {
+        height: 0;
+        overflow: hidden;
+        font-size: 18px;
+        font-family: Ubuntu-Light;
+        color: #55687d;
+        line-height: 28px; }
+    .downlaod .faq-box .faq .li.show .tit i {
+      background-image: url("https://wapi.piaproxy.com/static/androidv2/img/download//faq_pre.svg"); }
+    .downlaod .faq-box .faq .li.show .li-cont {
+      background-color: #fbfcfc;
+      padding: 40px;
+      height: auto; }
+      .downlaod .faq-box .faq .li.show .li-cont > p {
+        height: auto; }
+.downlaod .trusted {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .downlaod .trusted .more-then {
+    background-color: #1d49a9;
+    padding: 54px 54px 54px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .downlaod .trusted .more-then .left-txt {
+      max-width: 755px; }
+      .downlaod .trusted .more-then .left-txt h5 {
+        position: relative;
+        font-size: 35px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        color: #ffffff;
+        line-height: 41px;
+        margin-bottom: 25px; }
+        .downlaod .trusted .more-then .left-txt h5::after {
+          content: "";
+          position: absolute;
+          left: 0px;
+          bottom: -15px;
+          display: block;
+          width: 357px;
+          height: 15px;
+          background-image: url("../img/index/morethen.html");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain; }
+      .downlaod .trusted .more-then .left-txt > p {
+        font-size: 20px;
+        font-family: Ubuntu-Light;
+        font-weight: 300;
+        color: #ffffff;
+        line-height: 32px; }
+    .downlaod .trusted .more-then .r-btn {
+      margin-right: -24px; }
+      .downlaod .trusted .more-then .r-btn .btn-box {
+        position: relative;
+        min-width: 264px;
+        height: 55px;
+        display: flex;
+        justify-content: flex-start; }
+        .downlaod .trusted .more-then .r-btn .btn-box .ipchanger-btn1 {
+          height: 100%;
+          background-color: #78a917; }
+          .downlaod .trusted .more-then .r-btn .btn-box .ipchanger-btn1:hover {
+            background-color: #78a917;
+            box-shadow: none; }
+          .downlaod .trusted .more-then .r-btn .btn-box .ipchanger-btn1 > p {
+            font-size: 18px;
+            font-family: Ubuntu-Light;
+            line-height: 21px; }
+      .downlaod .trusted .more-then .r-btn .guarant {
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        .downlaod .trusted .more-then .r-btn .guarant img {
+          width: 18px;
+          height: 18px;
+          margin-right: 5px; }
+        .downlaod .trusted .more-then .r-btn .guarant > p {
+          font-size: 16px;
+          font-family: Ubuntu-Light;
+          color: #ffffff;
+          line-height: 19px; }
+.downlaod .city-box {
+  padding-top: 100px;
+  padding-bottom: 30px; }
+  .downlaod .city-box .ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px; }
+    .downlaod .city-box .ul > .li {
+      width: 226px;
+      padding: 10px 0px 10px 25px;
+      display: flex;
+      align-items: center;
+      transition: all 0.3s;
+      margin-right: 37px;
+      margin-bottom: 30px;
+      border-radius: 2px; }
+      .downlaod .city-box .ul > .li:nth-of-type(5n) {
+        margin-right: 0; }
+      .downlaod .city-box .ul > .li:hover {
+        background-color: #f7f8fa; }
+      .downlaod .city-box .ul > .li img {
+        width: 54px;
+        height: 54px; }
+      .downlaod .city-box .ul > .li .txt {
+        margin-left: 10px; }
+        .downlaod .city-box .ul > .li .txt > span {
+          font-size: 16px;
+          font-family: Ubuntu-Light, Ubuntu;
+          font-weight: 300;
+          color: #042040;
+          line-height: 19px;
+          white-space: nowrap; }
+        .downlaod .city-box .ul > .li .txt > p {
+          font-size: 16px;
+          font-family: Ubuntu-Medium, Ubuntu;
+          font-weight: 500;
+          color: #042040;
+          line-height: 19px;
+          margin-top: 6px;
+          white-space: nowrap; }
+.downlaod .apkfile {
+  background-color: #f9f9fa;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .downlaod .apkfile .txt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
+    .downlaod .apkfile .txt h4 {
+      font-size: 35px;
+      font-family: Ubuntu-Bold, Ubuntu;
+      color: #042040;
+      line-height: 41px; }
+    .downlaod .apkfile .txt > p {
+      max-width: 740px;
+      font-size: 20px;
+      font-family: Ubuntu-Light;
+      font-weight: 400;
+      color: #55687d;
+      line-height: 34px; }
+  .downlaod .apkfile .line {
+    margin-top: 30px;
+    background-color: #eff3f8;
+    display: flex;
+    align-items: center;
+    padding: 13px 20px; }
+    .downlaod .apkfile .line p {
+      font-size: 16px;
+      font-family: Ubuntu-Light;
+      font-weight: 400;
+      color: #355395;
+      line-height: 27px;
+      margin-left: 16px; }
+.downlaod .how-does {
+  padding-top: 80px;
+  padding-bottom: 60px; }
+  .downlaod .how-does .cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
+    .downlaod .how-does .cont > img {
+      width: 100%;
+      max-width: 574px; }
+    .downlaod .how-does .cont .txt-box {
+      max-width: 630px; }
+      .downlaod .how-does .cont .txt-box .li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 40px; }
+        .downlaod .how-does .cont .txt-box .li:nth-last-of-type(1) {
+          margin-bottom: 0; }
+        .downlaod .how-does .cont .txt-box .li > img {
+          max-width: 60px;
+          flex: none;
+          margin-right: 25px; }
+        .downlaod .how-does .cont .txt-box .li .txt p {
+          font-size: 26px;
+          font-family: Ubuntu-Medium, Ubuntu;
+          font-weight: 500;
+          color: #042040;
+          line-height: 30px;
+          margin-bottom: 15px; }
+        .downlaod .how-does .cont .txt-box .li .txt span {
+          font-size: 20px;
+          font-family: Ubuntu-Light;
+          font-weight: 400;
+          color: #55687d;
+          line-height: 32px; }
+.downlaod .encrypt {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .downlaod .encrypt .cont {
+    margin-top: 50px; }
+    .downlaod .encrypt .cont > img {
+      width: 100%;
+      max-width: 600px; }
+    .downlaod .encrypt .cont .txt-box {
+      max-width: 546px; }
+      .downlaod .encrypt .cont .txt-box .li p {
+        font-size: 24px;
+        font-family: Ubuntu-Medium, Ubuntu;
+        font-weight: 500;
+        color: #042040;
+        line-height: 31px; }
+      .downlaod .encrypt .cont .txt-box .li span {
+        font-size: 20px;
+        font-family: Ubuntu-Light;
+        font-weight: 400;
+        color: #55687d;
+        line-height: 34px;
+        display: inline-block;
+        margin-top: 10px; }
+.downlaod .makes .tit-p {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  max-width: 1000px; }
+.downlaod .makes .makes-li > img {
+  width: 100%;
+  max-width: 600px; }
+.downlaod .makes .makes-li .txt {
+  max-width: 576px; }
+  .downlaod .makes .makes-li .txt .li {
+    padding-left: 30px;
+    border-left: 2px solid #94a3b8;
+    margin-bottom: 40px;
+    cursor: pointer; }
+    .downlaod .makes .makes-li .txt .li:nth-last-of-type(1) {
+      margin-bottom: 0; }
+    .downlaod .makes .makes-li .txt .li.active {
+      border-left: 2px solid #0e6fde; }
+      .downlaod .makes .makes-li .txt .li.active p {
+        color: #042040; }
+      .downlaod .makes .makes-li .txt .li.active span {
+        display: block; }
+    .downlaod .makes .makes-li .txt .li p {
+      font-size: 24px;
+      font-family: Ubuntu-Medium, Ubuntu;
+      font-weight: 500;
+      color: #94a3b8;
+      line-height: 31px; }
+    .downlaod .makes .makes-li .txt .li span {
+      display: none;
+      margin-top: 10px;
+      font-size: 20px;
+      font-family: Ubuntu-Light;
+      font-weight: 400;
+      color: #55687d;
+      line-height: 34px; }
+.downlaod .totally .tit-p {
+  max-width: 1000px;
+  margin-top: 15px;
+  margin-bottom: 50px; }
+.downlaod .totally .total-ul {
+  max-width: 940px;
+  margin: 0 auto; }
+  .downlaod .totally .total-ul li {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px 0; }
+    .downlaod .totally .total-ul li:hover {
+      background: #ffffff;
+      box-shadow: 0px 4px 30px 1px rgba(0, 54, 130, 0.15); }
+    .downlaod .totally .total-ul li > img {
+      width: 60px; }
+    .downlaod .totally .total-ul li p {
+      font-size: 20px;
+      font-family: Ubuntu-Regular, Ubuntu;
+      font-weight: 400;
+      color: #042040;
+      line-height: 23px;
+      margin-top: 10px; }
+.downlaod .a-box {
+  display: flex;
+  justify-content: center; }
+.downlaod .lemore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Poppins-Light, Poppins;
+  color: #0e6fde;
+  margin: 0 auto;
+  line-height: 32px; }
+  .downlaod .lemore:hover i {
+    left: 6px; }
+  .downlaod .lemore i {
+    width: 17px;
+    height: 12px;
+    background-image: url("../img/index/icon_rjiantou.html");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 14px;
+    position: relative;
+    left: 0;
+    transition: all 0.3s; }
+
+.banner-downnav {
+  margin-top: -80px;
+  z-index: 11;
+  position: relative;
+  display: flex;
+  justify-content: center; }
+  .banner-downnav .aft-box {
+    position: relative; }
+    .banner-downnav .aft-box::after {
+      content: "";
+      display: block;
+      width: calc(100% - 120px);
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 31px;
+      background-color: #ffffff;
+      box-shadow: 0px 3px 18px 1px rgba(162, 180, 202, 0.3);
+      border-radius: 10px 10px 10px 10px;
+      z-index: -1; }
+    .banner-downnav .aft-box .nav-box {
+      background-color: #ffffff;
+      box-shadow: 0px 3px 18px 1px rgba(162, 180, 202, 0.3);
+      border-radius: 19px 19px 19px 19px;
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 2; }
+      .banner-downnav .aft-box .nav-box .li {
+        display: flex;
+        padding: 0 83.5px; }
+        .banner-downnav .aft-box .nav-box .li > a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          cursor: pointer;
+          position: relative; }
+          .banner-downnav .aft-box .nav-box .li > a.no:hover p {
+            color: #94a3b8; }
+          .banner-downnav .aft-box .nav-box .li > a:hover .img.img1, .banner-downnav .aft-box .nav-box .li > a.active .img.img1 {
+            background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_win1.svg"); }
+          .banner-downnav .aft-box .nav-box .li > a:hover .img.img2, .banner-downnav .aft-box .nav-box .li > a.active .img.img2 {
+            background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_and1.svg"); }
+          .banner-downnav .aft-box .nav-box .li > a:hover .img.img3, .banner-downnav .aft-box .nav-box .li > a.active .img.img3 {
+            background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_iOS1.svg"); }
+          .banner-downnav .aft-box .nav-box .li > a:hover .img.img4, .banner-downnav .aft-box .nav-box .li > a.active .img.img4 {
+            background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_google1.svg"); }
+          .banner-downnav .aft-box .nav-box .li > a:hover .img.img5, .banner-downnav .aft-box .nav-box .li > a.active .img.img5 {
+            background-image: url("https://wapi.piaproxy.com/static/index/img/header/chrome1.svg"); }
+          .banner-downnav .aft-box .nav-box .li > a:hover p, .banner-downnav .aft-box .nav-box .li > a.active p {
+            color: #042040; }
+          .banner-downnav .aft-box .nav-box .li > a:hover .comcoon {
+            display: flex; }
+          .banner-downnav .aft-box .nav-box .li > a .img {
+            width: 45px;
+            height: 45px;
+            background-repeat: no-repeat;
+            background-position: center; }
+            .banner-downnav .aft-box .nav-box .li > a .img.img1 {
+              background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_win.svg"); }
+            .banner-downnav .aft-box .nav-box .li > a .img.img2 {
+              background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_and.svg"); }
+            .banner-downnav .aft-box .nav-box .li > a .img.img3 {
+              background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_iOS.svg"); }
+            .banner-downnav .aft-box .nav-box .li > a .img.img4 {
+              background-image: url("https://wapi.piaproxy.com/static/index/img/header/bandown_google.svg"); }
+            .banner-downnav .aft-box .nav-box .li > a .img.img5 {
+              background-image: url("https://wapi.piaproxy.com/static/index/img/header/chrome.svg"); }
+          .banner-downnav .aft-box .nav-box .li > a p {
+            text-align: center;
+            font-size: 16px;
+            font-family: Ubuntu-Regular, Ubuntu;
+            color: #94a3b8;
+            line-height: 23px;
+            margin-top: 15px; }
+          .banner-downnav .aft-box .nav-box .li > a span {
+            font-size: 14px;
+            font-family: Ubuntu-Light;
+            color: #94a3b8;
+            line-height: 23px; }
+          .banner-downnav .aft-box .nav-box .li > a .comcoon {
+            display: none;
+            align-items: center;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -35px;
+            padding: 0 20px;
+            height: 30px;
+            background-color: #a2b4ca;
+            border-radius: 36px;
+            font-size: 14px;
+            font-family: Ubuntu-Regular, Ubuntu;
+            font-weight: 400;
+            color: #ffffff;
+            line-height: 14px;
+            white-space: nowrap; }
+      .banner-downnav .aft-box .nav-box .line {
+        width: 1px;
+        height: 60px;
+        background-color: #e4eaf2; }
+
+.banner-downnav .aft-box::after {
+  height: 0px;
+  width: 0px; }
+
+.banner-downnav {
+  margin-top: 0px; }
+
+.downlaod .faq-box {
+  background-color: #ffffff; }
+
+.a2 {
+  margin-top: 100px;
+  width: 1210px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center; }
+  .a2 .obox .obox-item {
+    width: 605px;
+    height: 152px;
+    background: #ffffff;
+    box-shadow: 0px 3px 25px 1px rgba(162, 181, 202, 0.3);
+    border-radius: 4px 4px 4px 4px;
+    opacity: 1; }
+  .a2 .a2-item-1 {
+    width: 565px; }
+  .a2 .a2-item-2 {
+    width: 605px;
+    height: auto; }
+    .a2 .a2-item-2 .a2-item-2-1 {
+      font-size: 38px;
+      font-family: Ubuntu-Bold, Ubuntu;
+      font-weight: bold;
+      color: #042040;
+      line-height: 49px; }
+    .a2 .a2-item-2 .a2-item-2-2 {
+      margin-top: 20px;
+      font-size: 16px;
+      font-family: Ubuntu-Light, Ubuntu;
+      font-weight: 300;
+      color: #55687d;
+      line-height: 27px; }
+    .a2 .a2-item-2 .a2-item-2-3 {
+      margin-top: 20px; }
+      .a2 .a2-item-2 .a2-item-2-3 .a2-item-3-1 {
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-family: Ubuntu-Light, Ubuntu;
+        font-weight: 300;
+        color: #55687d; }
+        .a2 .a2-item-2 .a2-item-2-3 .a2-item-3-1 img {
+          margin-right: 4px; }
+    .a2 .a2-item-2 .a2-item-2-4 {
+      margin-top: 40px;
+      width: 214px;
+      height: 51px;
+      background: #0e6fde;
+      border-radius: 4px 4px 4px 4px;
+      opacity: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-family: Ubuntu-Regular, Ubuntu;
+      font-weight: 400;
+      color: #ffffff; }
+
+.a1 {
+  width: 1210px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px; }
+  .a1 .a1-item {
+    padding: 30px 20px;
+    width: 377px;
+    height: 236px;
+    background: #ffffff;
+    box-shadow: 0px 3px 14px 1px rgba(162, 181, 202, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1; }
+    .a1 .a1-item .a1-item-1 {
+      padding-left: 0px; }
+    .a1 .a1-item .a1-item-2 {
+      font-size: 20px;
+      font-family: Ubuntu-Medium, Ubuntu;
+      font-weight: 500;
+      color: #042040;
+      margin-top: 20px;
+      text-align: left; }
+    .a1 .a1-item .a1-item-3 {
+      font-size: 16px;
+      font-family: Ubuntu-Light, Ubuntu;
+      font-weight: 300;
+      color: #55687d;
+      line-height: 21px;
+      margin-top: 20px;
+      text-align: left; }
+
+.steps {
+  margin-top: 80px; }
+  .steps h2 {
+    width: 1023px; }
+  .steps > p {
+    font-size: 24px;
+    font-family: Ubuntu-Light;
+    color: #55687d;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center; }
+  .steps > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px; }
+    .steps > ul > li {
+      width: 410px;
+      box-shadow: 0px 4px 30px 1px rgba(0, 54, 130, 0.05);
+      border-radius: 10px 10px 4px 4px;
+      opacity: 1;
+      border: 1px solid #f0f4f5;
+      padding-bottom: 19px; }
+      .steps > ul > li > img {
+        width: 100%;
+        max-width: 410px; }
+      .steps > ul > li .txt {
+        padding: 0 25px;
+        padding-top: 30px; }
+        .steps > ul > li .txt > p {
+          font-size: 24px;
+          font-family: Ubuntu-Regular, Ubuntu;
+          color: #042040;
+          line-height: 28px;
+          margin-bottom: 15px; }
+        .steps > ul > li .txt > span {
+          font-size: 18px;
+          font-family: Ubuntu-Light;
+          color: #55687d;
+          line-height: 28px; }
+          .steps > ul > li .txt > span a {
+            color: #0e6fde; }
+
+.ff {
+  cursor: pointer;
+  display: inline-block !important;
+  background: #0e6fde;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: content-box;
+  transition: all 0.4s;
+  color: #ffffff; }
+  .ff > p {
+    font-size: 16px;
+    font-family: Ubuntu-Medium, Ubuntu;
+    font-weight: 500;
+    color: #ffffff; }
+  .ff i {
+    transition: all 0.4s;
+    width: 22px;
+    height: 23px;
+    opacity: 0;
+    background-image: url("https://wapi.piaproxy.com/static/contrast/img/right_white.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 16px;
+    top: 23px; }
+
+.ff:hover {
+  background-color: #16396c;
+  box-shadow: 0px 4px 4px 1px rgba(22, 57, 108, 0.19);
+  padding-right: 20px; }
+  .ff:hover i {
+    opacity: 1; }
+
+.titd {
+  font-size: 48px;
+  font-family: Ubuntu-Bold, Ubuntu;
+  font-weight: bold;
+  color: #042040;
+  text-align: center;
+  position: relative; }
+
+.kcty {
+  width: 226px;
+  height: 74px;
+  padding-left: 16px !important; }
+  .kcty img {
+    width: 75px !important;
+    height: 75px !important; }
+  .kcty .txt {
+    margin-left: 0px !important; }
+
+.downlaod .city-box .ul {
+  width: 1210px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between; }
+  .downlaod .city-box .ul .li {
+    margin-right: 0px !important;
+    margin-bottom: 0px !important; }
+
+.downlaod .city-box .ul {
+  margin-top: 60px; }
+
+.thh {
+  position: relative;
+  width: 900px;
+  font-size: 16px;
+  font-family: Ubuntu-Light, Ubuntu;
+  font-weight: 300;
+  color: #55687d;
+  line-height: 27px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.lel {
+  position: absolute;
+  left: -166px;
+  top: -300px; }
+
+.jj {
+  width: 1210px;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://wapi.piaproxy.com/static/androidv2/img/jj.svg");
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  .jj .jjtext {
+    width: 780px;
+    height: 210px;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    margin-left: 100px;
+    transform: translateY(-10px); }
+    .jj .jjtext .jj1 {
+      font-size: 38px;
+      font-weight: bold;
+      color: #042040;
+      line-height: 49px; }
+    .jj .jjtext .jj2 {
+      font-size: 16px;
+      font-weight: 300;
+      color: #55687d;
+      line-height: 27px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .jj .jjtext .jjb {
+      background: #0e6fde;
+      border-radius: 4px 4px 4px 4px;
+      opacity: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-family: Ubuntu-Regular, Ubuntu;
+      font-weight: 400;
+      color: #ffffff;
+      position: relative;
+      box-sizing: content-box;
+      transition: all 0.4s;
+      cursor: pointer; }
+      .jj .jjtext .jjb i {
+        transition: all 0.4s;
+        width: 22px;
+        height: 23px;
+        opacity: 0;
+        background-image: url("https://wapi.piaproxy.com/static/contrast/img/right_white.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 12px;
+        top: 25px;
+        cursor: pointer; }
+    .jj .jjtext .jjb:hover {
+      background-color: #16396c;
+      box-shadow: 0px 4px 4px 1px rgba(22, 57, 108, 0.19);
+      padding-right: 20px; }
+      .jj .jjtext .jjb:hover i {
+        opacity: 1; }
+
+.ggrwer {
+  position: absolute;
+  left: -52px;
+  top: -104px; }
+
+.tost {
+  padding: 20px 40px !important;
+  display: inline-block !important; }
+
+.tost:hover {
+  padding-right: 60px !important; }
+
+.l2 {
+  position: absolute;
+  left: -49px;
+  top: -132px; }
+
+.ok15 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Open Sans-Regular, Open Sans;
+  font-weight: 400;
+  color: #042040;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative; }
+  .ok15 img {
+    margin-left: 8px; }
+  .ok15 .line {
+    width: 0px;
+    height: 1px;
+    background-color: #ff4800;
+    position: absolute;
+    bottom: -52px;
+    transition: all 0.5s; }
+
+.ok15:hover {
+  color: #ff4800 !important; }
+  .ok15:hover .line {
+    width: 100px; }
+
+.grgrew {
+  display: flex;
+  justify-content: center; }
+
+.ok {
+  position: relative; }
+  .ok .sdfe3f {
+    position: absolute;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 304px;
+    top: -19px;
+    z-index: -3; }
+
+.frf1 {
+  position: absolute;
+  left: 0px;
+  top: 942px;
+  z-index: -1; }
+
+.frf2 {
+  position: absolute;
+  right: 0px;
+  top: 1596px;
+  z-index: -1; }
+
+.frf3 {
+  position: absolute;
+  right: 0px;
+  top: 1909px;
+  z-index: -1; }
+
+.tt1 {
+  position: absolute;
+  right: 257px;
+  top: 0px; }
+
+.tt2 {
+  position: absolute;
+  left: 298px;
+  top: -206px; }
+
+.tvg {
+  position: absolute;
+  left: 904px;
+  top: 49px; }

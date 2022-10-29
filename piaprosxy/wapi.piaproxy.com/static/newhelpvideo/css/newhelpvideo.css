@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: #55687d;
+}
+
+.bbk {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.bbkitem {
+  width: 291px !important;
+  height: 253px !important;
+  background: #ffffff !important;
+  box-shadow: 0px 3px 8px 0px rgba(162, 180, 202, 0.1);
+  border-radius: 10px 10px 10px 10px;
+  opacity: 1;
+  border: 1px solid #f0f4f5;
+}
+
+.bbkitem2 {
+  width: 291px !important;
+  height: 253px !important;
+}
+
+.titc {
+  font-size: 40px;
+  font-family: Open Sans-Bold, Open Sans;
+  font-weight: bold;
+  color: #042040;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.navage {
+  height: 48px;
+  background: #f5f6fb;
+  box-shadow: 0px 1px 0px 0px #e9ecf3;
+  border-radius: 0px 0px 0px 0px;
+  opacity: 1;
+}
+
+.navage .navbox {
+  margin-left: 82px;
+  width: 568px;
+  height: 48px;
+  border-radius: 0px 0px 0px 0px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: Ubuntu-Regular, Ubuntu;
+  font-weight: 400;
+  color: #55687d;
+}
+
+.navage .navbox .nav {
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navage .navbox .nav:hover {
+  box-shadow: inset 0px -2px 0px 0px #0e6fde;
+}
+
+.navage .navbox .active {
+  box-shadow: inset 0px -2px 0px 0px #0e6fde;
+}
